@@ -1,0 +1,17 @@
+.nav {
+  height: 5rem;
+  display: grid;
+  place-items: center;
+  background-color: #2b3945;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+
+  @media (min-width: 768px) {
+    &__logo {
+      font-size: 1.6rem;
+    }
+  }
+}

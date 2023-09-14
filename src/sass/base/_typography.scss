@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url(/src/assets/fonts/OTF/Satoshi-Regular.otf);
+}
+
+@font-face {
+  font-family: "Satoshi medium";
+  src: url(/src/assets/fonts/OTF/Satoshi-Medium.otf);
+}
+
+@font-face {
+  font-family: "Satoshi bold";
+  src: url(/src/assets/fonts/OTF/Satoshi-Bold.otf);
+}
+
+body,
+input,
+select {
+  font-family: "Satoshi", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Satoshi bold", sans-serif;
+}
+
+h4 {
+  font-family: "Satoshi medium", sans-serif;
+}
